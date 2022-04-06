@@ -19,7 +19,7 @@ h5 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -219,31 +219,30 @@ nav {
   width: 90%;
 }
 
-/* .button {
-  width: 220px;
-  background-color: #ffffff40;
-  border: #fff;
-  border-style: solid;
-  margin-top: 20px;
-  padding: 9px;
-} */
-
-.button {
-  color: #252525;
-  text-decoration: none;
-  letter-spacing: 0.01rem;
-  font-size: 1.1rem;
-  font-weight: 700;
-  font-style: italic;
-  text-transform: capitalize;
-  font-family: "Crimson Text", serif;
+.project-button-container {
+  display: flex;
 }
 
-a:hover,
+.button {
+  width: 40%;
+  background-color: #85262640;
+  border: none;
+  margin: 10px 5px;
+  padding: 9px;
+  display: flex;
+  justify-content: center;
+}
+
+.button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* a:hover,
 .button:hover {
   background-color: #394ff4;
   color: #fff;
-}
+} */
 
 /* Contact section */
 form {
@@ -268,5 +267,12 @@ form button {
 @media (min-width: 600px) {
   .tools-container .skills-icon {
     width: 16.6%;
+  }
+}
+
+/* For phones only */
+@media only screen and (max-width: 595px) {
+  .project-button-container {
+    justify-content: center;
   }
 }
