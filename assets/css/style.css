@@ -204,6 +204,47 @@ nav {
   font-size: 15px;
 }
 
+/* Projects section */
+.icons-mini-container .skills-icon {
+  padding: 8px;
+  font-size: 20px;
+}
+
+.project-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.project-image-container img {
+  width: 90%;
+}
+
+/* .button {
+  width: 220px;
+  background-color: #ffffff40;
+  border: #fff;
+  border-style: solid;
+  margin-top: 20px;
+  padding: 9px;
+} */
+
+.button {
+  color: #252525;
+  text-decoration: none;
+  letter-spacing: 0.01rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: capitalize;
+  font-family: "Crimson Text", serif;
+}
+
+a:hover,
+.button:hover {
+  background-color: #394ff4;
+  color: #fff;
+}
+
 /* Contact section */
 form {
   display: flex;
