@@ -166,24 +166,20 @@ nav {
   width: 80%;
 }
 
-.skill-container {
-  padding: 5px 0;
-}
-
-.skill-container img {
-  width: 20px;
-}
-
-.skills-icon p {
-  font-weight: 600;
-}
-
 /* Skills section */
+#skills {
+  background-color: orange;
+}
+
 .languages .skills-icon {
   display: flex;
   align-items: center;
   flex-direction: column;
   font-size: 50px;
+}
+
+.skills-icon p {
+  font-weight: 600;
 }
 
 .tools-container {
