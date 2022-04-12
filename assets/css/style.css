@@ -286,13 +286,6 @@ form button {
   }
 }
 
-/* For phones only */
-@media only screen and (max-width: 595px) {
-  .project-button-container {
-    justify-content: center;
-  }
-}
-
 /* Large devices (laptops/desktops, 992px and down) */
 @media only screen and (max-width: 992px) {
   /* Landing Section */
@@ -311,5 +304,20 @@ form button {
 
   .desk img {
     width: 65%;
+  }
+}
+
+/* For phones only */
+@media only screen and (max-width: 595px) {
+  .landing p {
+    width: 100%;
+  }
+
+  .about p {
+    width: 100%;
+  }
+
+  .project-button-container {
+    justify-content: center;
   }
 }
