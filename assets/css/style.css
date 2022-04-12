@@ -38,12 +38,12 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: white;
+  background-color: orange;
   font-family: "Poppins", sans-serif;
 }
 
 .logo {
-  color: orange;
+  color: white;
   letter-spacing: 5px;
   font-size: 20px;
 }
@@ -59,7 +59,7 @@ nav {
   list-style: none;
 }
 .nav-links a {
-  color: orange;
+  color: white;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
@@ -74,7 +74,7 @@ nav {
 .burger div {
   width: 25px;
   height: 3px;
-  background-color: orange;
+  background-color: white;
   margin: 5px;
   transition: all 0.5s ease;
 }
@@ -296,6 +296,10 @@ form button {
 /* Large devices (laptops/desktops, 992px and down) */
 @media only screen and (max-width: 992px) {
   /* Landing Section */
+  p {
+    font-size: 1.2rem;
+  }
+  /* Landing Section */
   .eoin-img {
     width: 60%;
     border-radius: 50%;
@@ -303,7 +307,6 @@ form button {
 
   .landing p {
     width: 90%;
-    font-size: 1.2rem;
   }
 
   .desk img {
