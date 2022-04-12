@@ -186,7 +186,7 @@ nav {
 }
 
 /* Skills section */
-.devicon {
+#skills .devicon {
   color: white;
 }
 
@@ -319,5 +319,13 @@ form button {
 
   .project-button-container {
     justify-content: center;
+  }
+
+  #projects h3 {
+    margin: 20px 0 10px;
+  }
+
+  #projects h5 {
+    margin-bottom: 10px;
   }
 }
