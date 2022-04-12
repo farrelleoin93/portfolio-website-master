@@ -144,20 +144,30 @@ nav {
 .landing {
   min-height: 92vh;
   display: flex;
-  align-items: center;
+  align-items: end;
+}
+
+.eoin {
+  display: flex;
+  justify-content: center;
 }
 
 .eoin-img {
-  width: 60%;
+  width: 30%;
   border-radius: 50%;
-}
-
-.desk {
-  width: 80%;
 }
 
 .landing p {
   width: 80%;
+}
+
+.desk {
+  display: flex;
+  justify-content: center;
+}
+
+.desk img {
+  width: 35%;
 }
 
 /* About Section */
@@ -280,5 +290,23 @@ form button {
 @media only screen and (max-width: 595px) {
   .project-button-container {
     justify-content: center;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+  /* Landing Section */
+  .eoin-img {
+    width: 60%;
+    border-radius: 50%;
+  }
+
+  .landing p {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+
+  .desk img {
+    width: 65%;
   }
 }
