@@ -147,13 +147,18 @@ nav {
   align-items: end;
 }
 
+.landing-top {
+  display: flex;
+  align-items: center;
+}
+
 .eoin {
   display: flex;
   justify-content: center;
 }
 
 .eoin-img {
-  width: 30%;
+  width: 50%;
   border-radius: 50%;
 }
 
@@ -292,13 +297,8 @@ form button {
   }
 }
 
-/* Large devices (laptops/desktops, 992px and down) */
-@media only screen and (max-width: 992px) {
-  /* General */
-  p {
-    font-size: 1.2rem;
-  }
-
+/* Devices 1300px and down */
+@media only screen and (max-width: 1300px) {
   /* Navbar  */
   .nav-links {
     width: 50%;
@@ -307,6 +307,15 @@ form button {
   .nav-links a {
     letter-spacing: 2px;
   }
+}
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+  /* General */
+  p {
+    font-size: 1.2rem;
+  }
+
   /* Landing Section */
   .eoin-img {
     width: 60%;
