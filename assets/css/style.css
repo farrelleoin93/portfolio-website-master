@@ -246,6 +246,12 @@ nav {
   width: 90%;
 }
 
+.project-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .project-button-container {
   display: flex;
 }
