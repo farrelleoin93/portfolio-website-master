@@ -2,10 +2,8 @@
 
 function sendMail(contactForm) {
   emailjs
-    .send("service_hbfvznd", "portfolio_contact", {
-      from_name: contactForm.fullname.value,
+    .send("gmail", "portfolio_contact", {
       from_email: contactForm.emailaddress.value,
-      message: contactForm.message.value,
     })
     .then(
       function () {
