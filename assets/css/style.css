@@ -216,6 +216,10 @@ nav {
   transition: .5s;
 }
 
+.tools img {
+  width: 50px;
+}
+
 .skills-icon i:hover {
   transform: rotate(360deg);
 }
