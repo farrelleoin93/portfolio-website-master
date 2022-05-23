@@ -14,7 +14,6 @@ document.getElementById('languages').innerHTML = languagesHtml;
 let toolsHtml = ''
 tools.map(tool => {
   if(tool.includes('.png')){
-    console.log(tool);
     toolsHtml += `
     <div class="skills-icon">
       <img src="./assets/images/skills/${tool.toLowerCase()}" alt="${tool.slice(0, -4)}">
