@@ -102,12 +102,8 @@ projects.map(project => {
       html += `
          </div>
             <div class="project-button-container">
-               <div class="button">
-                  <a href="${project.repo}" target="_blank">Repo</a>
-               </div>
-               <div class="button">
-                  <a href="${project.site}" target="_blank">Live Site</a>
-               </div>
+                  <a href="${project.repo}" target="_blank" class="button">Repo</a>
+                  <a href="${project.site}" target="_blank" class="button">Live Site</a>
             </div>
          </div>
       </div>`;      

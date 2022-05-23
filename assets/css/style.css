@@ -264,19 +264,18 @@ nav {
 }
 
 .button {
-  width: 40%;
-  background-color: #ecb100c7;
-  border: none;
-  margin: 10px 5px;
-  padding: 9px;
-  display: flex;
-  justify-content: center;
+    width: 40%;
+    background-color: #ecb100c7;
+    border: none;
+    margin: 10px 5px;
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
 }
 
-.button a {
-  text-decoration: none;
-  color: #fff;
-}
+a:hover{color: #fff;}
 
 .skills-icon-image {
   display: flex;
@@ -285,12 +284,6 @@ nav {
   padding-left: 4px;
 }
 
-
-/* a:hover,
-.button:hover {
-  background-color: #394ff4;
-  color: #fff;
-} */
 
 /* Contact section */
 form {
