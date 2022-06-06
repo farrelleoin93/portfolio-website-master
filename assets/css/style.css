@@ -155,7 +155,6 @@ nav {
 .landing {
   min-height: 92vh;
   display: flex;
-  align-items: end;
 }
 
 .landing-top {
@@ -166,6 +165,7 @@ nav {
 .eoin {
   display: flex;
   justify-content: center;
+  filter: blur(8px);
 }
 
 .eoin-img {
