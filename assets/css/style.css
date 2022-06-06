@@ -192,6 +192,10 @@ nav {
   font-weight: 600;
 }
 
+.landing a:hover {
+  color: black;
+}
+
 /* Skills section */
 #skills{
   background-color: var(--primary);
@@ -286,7 +290,7 @@ nav {
 
 .button {
     width: 40%;
-    background-color: var(--secondary);
+    background-color: var(--nav);
     border: none;
     margin: 10px 5px;
     padding: 9px;
