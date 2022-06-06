@@ -41,6 +41,8 @@ p {
 /* NAVBAR */
 
 nav {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -106,7 +108,6 @@ nav {
 .eoin {
   display: flex;
   justify-content: center;
-  filter: blur(8px);
 }
 
 .eoin-img {
