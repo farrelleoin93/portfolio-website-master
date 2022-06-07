@@ -1,5 +1,21 @@
 languages = ['HTML5', 'CSS3', 'JavaScript', 'Python'];
-tools = ["jQuery", 'React', "Django", "Flask", "Bootstrap", 'Materialize.png', 'MongoDB', 'mySQL', 'Git', 'Github', 'Heroku', 'VSCode', 'AWS.png', 'Slack', 'Stripe.png'];
+tools = [
+  "jQuery",
+  "React",
+  "Django",
+  "Flask",
+  "Bootstrap",
+  "MongoDB",
+  "mySQL",
+  "Git",
+  "Materialize.png",
+  "Github",
+  "Heroku",
+  "VSCode",
+  "AWS.png",
+  "Slack",
+  "Stripe.png",
+];
 
 let languagesHtml = ''
 languages.map(language => {
