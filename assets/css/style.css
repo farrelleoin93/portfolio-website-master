@@ -34,8 +34,15 @@ p {
   padding: 20px 0;
 }
 
-.orange-background {
-  background-color: orange;
+.button {
+    width: 40%;
+    background-color: var(--nav);
+    border: none;
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
 }
 
 /* NAVBAR */
@@ -128,14 +135,18 @@ nav {
   width: 35%;
 }
 
-.landing a {
+.landing-para a {
   text-decoration: none;
   color: grey;
   font-weight: 600;
 }
 
-.landing a:hover {
+.landing-para a:hover {
   color: black;
+}
+
+.landing-para button {
+  color: #fff;
 }
 
 /* Skills section */
@@ -231,16 +242,8 @@ nav {
   display: flex;
 }
 
-.button {
-    width: 40%;
-    background-color: var(--nav);
-    border: none;
-    margin: 10px 5px;
-    padding: 9px;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: #fff;
+#projects .button {
+  margin: 10px 10px 10px 0;
 }
 
 a:hover{color: #fff;}
