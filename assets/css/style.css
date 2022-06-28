@@ -104,6 +104,50 @@ nav {
   background-color: var(--main);
 }
 
+.shapes-container {
+  height: 100%;
+  width: 100%;
+}
+
+.shapes {
+  font-size: 25px;
+}
+
+.shape-1 {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  color: blue;
+}
+
+.shape-2 {
+  position: absolute;
+  top: 90%;
+  left: 30%;
+  color: orange;
+}
+
+.shape-3 {
+  position: absolute;
+  top: 32%;
+  left: 95%;
+  color: purple;
+}
+
+.shape-4 {
+  position: absolute;
+  top: 20%;
+  left: 7%;
+  color: red;
+}
+
+.shape-5 {
+  position: absolute;
+  top: 70%;
+  left: 77%;
+  color: grey;
+}
+
 .landing {
   min-height: 92vh;
   display: flex;
